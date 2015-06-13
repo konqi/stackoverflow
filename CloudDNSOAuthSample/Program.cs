@@ -88,7 +88,7 @@ namespace CloudDns.ListMyZones
             var service = new DnsService(new BaseClientService.Initializer()
                 {
                     HttpClientInitializer = credential,
-                    ApplicationName = "Books API Sample",
+                    ApplicationName = "Cloud DNS API Sample",
                 });
 
             // List library.
